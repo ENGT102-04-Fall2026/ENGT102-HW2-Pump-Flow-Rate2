@@ -9,6 +9,8 @@ Again, have the user enter the elapsed time in seconds
 Convert both of the entries to numeric float values with float
 Calculate the average volumetric flow rate using the formula: 
 Flow rate (L/s) = Volume transferred (L)/ Elapsed time (s)
+Output:
+Average flow rate: L/s
 Pseudocode Here:
 START
 DISPLAY "Enter the volume transferred (L):"
