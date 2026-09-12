@@ -22,3 +22,17 @@ SET elapsed time = CONVERT (time_input) to float
 SET flow_rate = volume / elapsed_time
 DISPLAY "Average flow rate:{flow_rate} L/s" 
 END
+Testing:
+### Test 1
+-Volume (L): 72 
+- Time (s): 8
+- Expected Flow Rate (L/s): 9
+- Actual Flow Rate (L/s): 9
+- Result: Pass
+### Test 2
+Volume (L): 56
+- Time (s): 4
+- Expected Flow Rate (L/s): 14
+- Actual Flow Rate (L/s): 14
+- Result: Pass
+At first, what mattered most was knowing all the variables at play. Especially knowing the formula given to us, I needed to make sure that with easier implementation, to shower the step where input strings such as volume and time were converted into float values ebfore running the calculations. Now having run the code into the actual Python proccesor like Thonny, it had shown the corrected results I wanted through the two test cases.
